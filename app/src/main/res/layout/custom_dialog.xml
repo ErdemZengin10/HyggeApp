@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="244dp"
+    android:layout_height="244dp"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/checked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sepete Eklendi"
+        />
+    <TextView
+
+        android:layout_gravity="center"
+        android:id="@+id/btnGoToMainAcc"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anasayfaya Git"
+        android:padding="8dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/dialog_button_black">
+
+    </TextView>
+
+</LinearLayout>
